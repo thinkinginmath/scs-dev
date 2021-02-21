@@ -76,5 +76,6 @@ class SMLNJKernel(Kernel):
 
 
 if __name__ == '__main__':
-    from ipykernel.zmq.kernelapp import IPKernelApp
+    from ipykernel.kernelapp import IPKernelApp
     IPKernelApp.launch_instance(kernel_class=SMLNJKernel)
+
