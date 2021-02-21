@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dev1:
+    build: .
+    volumes:
+      - ./src:/app/notebook/src
+    tty: true
+    ports:
+      - 8888:8888
